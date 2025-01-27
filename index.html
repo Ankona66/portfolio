@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name = "viewport" content="width=device-width", initial-scale = 1.0>
+        <title>Personal Portfolio Website </title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="https://kit.fontawesome.com/7fcfcfb9af.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutme" >About</a></li>
+                <li><a href="#contactme">Resume</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            
+            <h1> Hello&#128075;, I'm <span>Ankona &#128105;</span> </h1>
+            <p> Dynamic engineer mastering code and projects while shaping the future through an advanced degree in Engineering and Management. </p>
+            <a href="#contactme" class="btn btn2"> Hire Me </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- ------ About Me Section -------------- -->
+<div id="about">
+    <a name="aboutme"></a>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">Why should you hire me?</h1>
+                <p> 
+                    Detail-oriented and agile-focused professional with 3+ years of experience in product support, feature enhancement, and business analysis. Skilled in cross-functional collaboration, delivering customer-centric solutions, and driving actionable improvements in digital platforms. Proficient in managing end-to-end product requirements, supporting stake
+                   holder communications, and conducting competitor and market analysis to influence product roadmaps.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    <p class="tab-links" onclick="opentab('projects')"> Personal Projects </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span> Project Management Tools </span><br>JIRA, ServiceNow, Zephyr, Confluence</li>
+                        <li><span> Technical Expertise </span><br>  SDLC Documentation, Functional Requirements, End-to-End Testing</li>
+                        <li><span> Microsoft Tools </span><br> Microsoft CRM, Microsoft Power BI, Microsoft Office, Microsoft Power platform, Microsoft Powerpoint</li>
+                        <li><span>  Oracle Products </span><br>Oracle MySQL Database, Oracle Siebel</li>
+                        <li><span> Developer Tools </span><br>VS Code, IntelliJ Idea</li>
+                        <li><span>  Programming Languages </span><br>C, C++, Javascript</li>
+                        <li><span>  Methodologies </span><br>Agile(Scrum/Kanban)</li>
+                        <li><span>  Soft Skills </span><br>Stakeholder Communication, Strong analytical and communication skills, Agile Mindset, Proactive Attitude, Cross-Team Coordination, Detail Orientation</li>
+                        <li><span>  Certifications </span><br> 
+                            <li> Certified Scrum Product Owner (CSPO)- January 2025</li>
+                            <li>Microsoft Certified Power Platform Fundamentals- April 2022</li>
+                            <li>Microsoft Certified Dynamics 365 Fundamentals (ERP)- February 2022</li>
+                            <li>Microsoft Certified Dynamics 365 Fundamentals (CRM)- December 2021</li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>  UniCredit S.p.A, Munich, Germany: Working Student in Financial IT </span><br>
+                            <li>  Supported agile practices by organizing backlog requirements and documenting detailed user stories.</li>
+                            <li>  Designed and maintained JIRA dashboards and applied advanced filters to enhance team productivity.</li>
+                            <li>  Recording detailed test cases and implementing custom scripts for efficient test execution, contributing to the
+                                overall quality assurance process including functional and integration tests.</li>
+                        </li>
+                        <li><span>  Cognizant Technology Solutions India Private Ltd. , Kolkata, India: Programmer Analyst</span><br> 
+                            
+                            <li>  Analyzed business needs and incorporated my portion of the offshore team’s work, demonstrating my efficacy
+                                and productivity by creating strategies to meet specific needs.</li>
+                            <li> Optimization of well-constructed code for new requirements and interfaces by creating components on Microsoft
+                                Dynamics 365 Dev environment.</li>
+                            <li>  Facilitated Go-Live implementations and ensured alignment of deliverables with business goals.</li>
+                            <li> Supported QA testing inquiries, supervised system testing and validation processes, and assisted in all phases of
+                                the Software Development Cycle.</li>
+                            <li>  Created and maintained functional requirements for application enhancements and also collected end-user feed
+                                back to refine application functionality.</li>
+                            <li>  Managed ticketing platforms (SNOW), including JIRA, to streamline workflow and enhance operational efficiency.</li>
+                            <li> Practical knowledge of the Power BI, Microsoft Dynamics 365 Development and Testing environments.</li>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> M.S in Engineering & Management </span><br>
+                            <li>Technische Hochschule Ingolstadt, Ingolstadt, Germany</li>
+                            <li>Graduating March 2026</li>
+                            <li>1.8</li>
+                         </li>
+                        <li><span> B.Tech in Information Technology</span><br>
+                            <li>Maulana Abul Kalam Azad University of Technology, West Bengal, India</li>
+                            <li>Graduated July 2021</li>
+                            <li>9.39 CGPA</li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span> Visualisation of data using Python Libraries</span><br>
+                            <li>Analyzed and preprocessed Netflix data using various Python libraries, employing Pandas methods to visualize and explore the dataset effectively.</li>
+                         </li>
+                        <li><span> Digital marketing Strategy for a Brand</span><br>
+                            <li> Designed SEO and KPI-focused campaigns for lifestyle products</li>
+                        </li>
+                        <li><span>  Netflix Dashboard using Microsoft Power BI</span><br>
+                            <li> Created an interactive visualization providing insights into platform trends.</li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----- Portfolio Section ----- -->
+
+<!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work/ Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- ----- Contact Section ----- -->
+
+<div id="contact">
+    <a name="contactme"></a>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" > Get in Touch <i class="fa-solid fa-envelope-open-text" style="margin: 15px;"> </i></h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> ankonasengupta97@gmail.com </p>
+                <p> <i class="fa-solid fa-phone"></i> +49 15228211200 </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ankona-sengupta-69203416b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/Ankona Resume.pdf" download class="btn btn2"> Get my resume </a>
+            </div>
+            <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="b54f0f39-c973-4c41-bee8-9d03f9426cfd">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email-id" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
